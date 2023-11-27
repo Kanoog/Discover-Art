@@ -1,1 +1,2 @@
 # Discover-Art
+ first commit :)
