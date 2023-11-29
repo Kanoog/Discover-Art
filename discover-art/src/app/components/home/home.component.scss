@@ -1,0 +1,29 @@
+.art {
+    background-image: url('../../../assets/cool-abstract-art-aditi-taregharkar.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .art-content {
+    text-align: center;
+    color: white;
+  }
+  
+  .art-content h1 {
+    font-size: 36px;
+  }
+  
+  .art-content button {
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
