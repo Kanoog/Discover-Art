@@ -5,9 +5,13 @@
     </div>
 </section>
 
-<h1>Home Page Content here - WIP</h1>
+<div class="display-artists">
+    <app-display-artist [artist]="artists[0]"></app-display-artist>
+    <app-display-artist [artist]="artists[1]"></app-display-artist>
+    <app-display-artist [artist]="artists[2]"></app-display-artist>
+</div>
 
-<app-display-artist
+<!-- <app-display-artist
     *ngFor="let artist of artists"
     [artist]="artist"
-></app-display-artist>
+></app-display-artist> -->
