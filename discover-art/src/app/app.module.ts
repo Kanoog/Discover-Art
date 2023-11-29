@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -10,6 +12,7 @@ import { ExporePageComponent } from './components/expore-page/expore-page.compon
 import { ArtistPageComponent } from './components/artist-page/artist-page.component';
 import { AboutUsPageComponent } from './components/about-us-page/about-us-page.component';
 import { SearchPageComponent } from './components/search-page/search-page.component';
+import { DisplayArtistComponent } from './components/display-artist/display-artist.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -28,10 +31,13 @@ const appRoutes: Routes = [
     ExporePageComponent,
     ArtistPageComponent,
     AboutUsPageComponent,
-    SearchPageComponent
+    SearchPageComponent,
+    DisplayArtistComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
+    FormsModule,
     RouterModule.forRoot(appRoutes, { enableTracing: true })
   ],
   providers: [],

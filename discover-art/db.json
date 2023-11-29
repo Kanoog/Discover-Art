@@ -1,0 +1,44 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "Bob Dylan",
+      "age": 45,
+      "hometown": "Minneapolis",
+      "dateOfBirth": "1990-05-23",
+      "bio": "Minneapolis"
+    },
+    {
+      "id": 2,
+      "name": "Beyonce",
+      "age": 45,
+      "hometown": "Minneapolis",
+      "dateOfBirth": "1990-05-23",
+      "bio": "Minneapolis"
+    },
+    {
+      "id": 3,
+      "name": "Jay-Z",
+      "age": 45,
+      "hometown": "Minneapolis",
+      "dateOfBirth": "1990-05-23",
+      "bio": "Minneapolis"
+    },
+    {
+      "id": 4,
+      "name": "Lizzo",
+      "age": 45,
+      "hometown": "Minneapolis",
+      "dateOfBirth": "1990-05-23",
+      "bio": "Minneapolis"
+    },
+    {
+      "id": 5,
+      "name": "Ariana Grande",
+      "age": 45,
+      "hometown": "Minneapolis",
+      "dateOfBirth": "1990-05-23",
+      "bio": "Minneapolis"
+    }
+  ]
+}
