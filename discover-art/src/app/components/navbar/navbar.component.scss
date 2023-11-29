@@ -1,20 +1,26 @@
 nav {
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
+  background-color: aquamarine;
+  padding: 10px;
+}
   
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #333;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a.active {
+  /* Add your styles to highlight the active link */
+  font-weight: bold;
+  color: blue;
+}

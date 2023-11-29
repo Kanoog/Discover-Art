@@ -1,5 +1,5 @@
 .footer {
-    background-color: yellow;
+    background-color: lightpink;
     width: 100%;
     padding: 20px 0;
   }
@@ -16,7 +16,6 @@
 }
 
 .footer-list li::after {
-    content: "|";
     margin-left: 10px;
     margin-right: 10px;
     color: gray;

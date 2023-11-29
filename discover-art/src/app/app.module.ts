@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -9,6 +10,14 @@ import { ExporePageComponent } from './components/expore-page/expore-page.compon
 import { ArtistPageComponent } from './components/artist-page/artist-page.component';
 import { AboutUsPageComponent } from './components/about-us-page/about-us-page.component';
 import { SearchPageComponent } from './components/search-page/search-page.component';
+
+const appRoutes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'explore', component: ExporePageComponent },
+  { path: 'artist', component: ArtistPageComponent },
+  { path: 'about', component: AboutUsPageComponent },
+  { path: 'search', component: SearchPageComponent }
+]
 
 @NgModule({
   declarations: [
@@ -22,7 +31,8 @@ import { SearchPageComponent } from './components/search-page/search-page.compon
     SearchPageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(appRoutes, { enableTracing: true })
   ],
   providers: [],
   bootstrap: [AppComponent]
