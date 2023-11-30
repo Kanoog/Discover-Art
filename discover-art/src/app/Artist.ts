@@ -5,4 +5,5 @@ export interface Artist {
     hometown: string;
     dateOfBirth: string;
     bio: string;
+    image: string;
 }

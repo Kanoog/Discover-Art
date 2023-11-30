@@ -5,11 +5,20 @@
     </div>
 </section>
 
-<div class="display-artists">
+
+<div class="homepage-container">
+    <div class="artist-container">
+        <app-display-artist [artist]="artists[0]"></app-display-artist>
+        <app-display-artist [artist]="artists[1]"></app-display-artist>
+        <app-display-artist [artist]="artists[2]"></app-display-artist>
+    </div>
+</div>
+
+<!-- <div class="display-artists">
     <app-display-artist [artist]="artists[0]"></app-display-artist>
     <app-display-artist [artist]="artists[1]"></app-display-artist>
     <app-display-artist [artist]="artists[2]"></app-display-artist>
-</div>
+</div> -->
 
 <!-- <app-display-artist
     *ngFor="let artist of artists"

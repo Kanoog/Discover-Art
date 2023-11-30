@@ -1,5 +1,12 @@
-<div>
-    <h2>{{ artist.name }}</h2>
-    <p>AGE: {{ artist.age }}</p>
-    <p>{{ artist.bio }}</p>
+<!-- This component displays the artist details -->
+<div class="artist-info">
+    <div class="artist-image">
+        <img [src]="artist.image" alt="artist image" />
+    </div>
+    <div class="artist-details">
+        <h2>{{ artist.name }}</h2>
+        <p>AGE: {{ artist.age }}</p>
+        <p>{{ artist.bio }}</p>
+        <button class="explore-button" (click)="exportArtists()">Explore</button>
+    </div>
 </div>

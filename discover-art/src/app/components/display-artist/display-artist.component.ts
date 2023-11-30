@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Artist } from '../../Artist';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-display-artist',
@@ -9,5 +10,13 @@ import { Artist } from '../../Artist';
 export class DisplayArtistComponent {
 
   @Input() artist!: Artist;
+
+  constructor(private router: Router) {
+    
+   }
+
+   exportArtists() {
+      this.router.navigate(['/about-artist', this.artist.id]);
+   }
 
 }

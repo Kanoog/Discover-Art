@@ -1,0 +1,35 @@
+.artist-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: skyblue;
+  width: 300px; /* Adjust width as needed */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adding a shadow effect */
+  .artist-image {
+    margin-bottom: 20px;
+    img {
+      width: 100%; /* Image takes full width of its container */
+      border-radius: 4px; /* Optional: Adding border-radius to the image */
+    }
+  }
+  .artist-details {
+    h2 {
+      margin-bottom: 10px;
+    }
+    p {
+      margin-bottom: 5px;
+    }
+  }
+
+  .explore-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
