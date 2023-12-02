@@ -1,22 +1,28 @@
 nav {
   background-color: aquamarine;
   padding: 10px;
+  height: 60px;
 }
   
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: center;
+  margin-top: 20px;
 }
 
 li {
   display: inline-block;
   margin-right: 10px;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 a {
   text-decoration: none;
   color: #333;
+
 }
 
 nav a.active {

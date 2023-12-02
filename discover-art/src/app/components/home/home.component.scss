@@ -1,3 +1,5 @@
+// TOP HEADER SECTION OF PAGE
+
 .art {
   background-image: url("../../../assets/home-page-header.png");
   background-size: cover;
@@ -6,6 +8,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+}
+
+.art img {
+  position: absolute;
+  top: 100px;
+  left: 20px;
 }
 
 .art-content {
@@ -28,6 +37,13 @@
   cursor: pointer;
 }
 
+// MIDDLE OF PAGE
+
+.featured {
+  text-align: center;
+  margin-top: 60px;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -36,4 +52,35 @@
 
 app-display-artist {
   padding: 10px;
+}
+
+// BOTTOM OF PAGE
+
+.rectangle {
+  width: 100%;
+  height: 350px;
+  background-color: gold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.newsletter-button {
+  justify-content: center;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 30px 60px;
+  border-radius: 10px;
+  font-size: 25px;
+  margin-top: 150px;
+  cursor: pointer;
+}
+
+.contact-link {
+
+  color: black;
+  text-decoration: underline;
+  margin-top: 85px;
 }

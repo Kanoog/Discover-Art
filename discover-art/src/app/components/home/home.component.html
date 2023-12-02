@@ -1,15 +1,23 @@
 <section class="art">
+    <img class="icon" src="favicon.ico" alt="Icon">
     <div class="art-content">
         <h1>DISCOVER ART</h1>
         <button routerLink="/explore">Explore</button>
     </div>
 </section>
 
+<h1 class="featured">Featured Artists</h1>
 
 <div class="container">
     <app-display-artist [artist]="artists[0]"></app-display-artist>
     <app-display-artist [artist]="artists[1]"></app-display-artist>
     <app-display-artist [artist]="artists[2]"></app-display-artist>
+</div>
+
+
+<div class="rectangle">
+    <button routerLink="/about" class="newsletter-button">Newsletter Signup</button>
+    <a routerLink="/about" class="contact-link">Contact Us</a>
 </div>
 
 <!-- <div class="display-artists">
