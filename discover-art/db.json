@@ -3,29 +3,29 @@
     {
       "id": 1,
       "name": "Andy Warhol",
-      "age": 45,
-      "hometown": "Minneapolis",
-      "dateOfBirth": "1990-05-23",
-      "bio": "Minneapolis",
-      "image": "assets/Campbells-Soup-Cans-1962-Andy-Warhol.jpg"
+      "age": 52,
+      "hometown": "Pittsburgh, Pennsylvania",
+      "dateOfBirth": "1928-08-06",
+      "bio": "Andy Warhol, born in Pittsburgh, Pennsylvania, on August 6, 1928, was a modern and contemporary artist who passed away at age 58 in New York City on February 22, 1987. Warhol is arguably the most crucial figure of the Pop Art art movement, working in film, photography, printmaking, and painting. As a result, Andy Warhol is the creator of some of the most iconic artworks of the 20th century and is a highly influential artist today. Think of his beyond-famous Marilyn Monroe portraits (see image above), but also his Campbell’s soup cans, his experimental films, and much more. Warhol combined consumer culture with art, dissolving the boundaries of high art and popular culture.",
+      "image": "assets/warhol.png"
     },
     {
       "id": 2,
-      "name": "Beyonce",
-      "age": 45,
-      "hometown": "Minneapolis",
-      "dateOfBirth": "1990-05-23",
-      "bio": "Minneapolis",
-      "image": "assets/Campbells-Soup-Cans-1962-Andy-Warhol.jpg"
+      "name": "Julia Shanaytsa",
+      "age": 36,
+      "hometown": "Berlin, Germany",
+      "dateOfBirth": "1995-01-05",
+      "bio": "Julia Shanaytsa art practice is diverse, encompassing both illustration and painting. Julia enjoys experimenting with color, shape, geometry, and genre, often blending painterly and illustrative techniques in her work. As she puts it, nine different artists live within her. Julia Shanaytsa approaches her paintings with intuition and emotion at the forefront. She believes that women often rely on their gut feelings rather than logic, and this is reflected in the choices she makes in terms of color and brushstrokes in her work. Intuition is closely tied to sensory memory and helps us draw on relevant experiences from the past in the present moment. In her series Yellow Mood, Julia depicts women in their environments while also introducing elements of fantasy and playfulness through her use of form and color. This series is inspired by classical works such as Rembrandt's The Anatomy Lesson of Dr. Nicolaes Tulp, reimagining these scenes in a modern context. The paintings in this series are characterized by their theatricality, sense of play, and the way they capture the spirit of the times.",
+      "image": "assets/shanaytsa-aperol.webp"
     },
     {
       "id": 3,
-      "name": "Jay-Z",
+      "name": "Clédia Fourniau",
       "age": 45,
-      "hometown": "Minneapolis",
-      "dateOfBirth": "1990-05-23",
-      "bio": "Minneapolis",
-      "image": "assets/Campbells-Soup-Cans-1962-Andy-Warhol.jpg"
+      "hometown": "Paris, France",
+      "dateOfBirth": "1992-03-16",
+      "bio": "Clédia Fourniau was born in 1992, in Paris, where she now lives and works. After a three-year program at the school Olivier de Serres, she graduates from the Beaux-Arts de Paris in october 2021, with honors. Clédia Fourniau tackles the processual and performative dimensions of abstract painting and questions the context in which one perceives and receives an image, involving the entire body of the artist and of the visitor.",
+      "image": "assets/cledia.jpg"
     },
     {
       "id": 4,
