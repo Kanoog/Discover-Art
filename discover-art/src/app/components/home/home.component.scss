@@ -28,25 +28,12 @@
   cursor: pointer;
 }
 
-.homepage-container {
+.container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: calc(100vh - 600px); /* Adjust as needed to fit your layout */
-  margin: 20px 0;
-  .artist-container {
-    display: flex;
-    gap: 20px; /* Adjust space between components */
-    display-artist {
-      flex: 1;
-      background-color: aqua;
-      text-align: center;
-      padding: 20px;
-      border-radius: 8px;
-      height: 600px;
-      flex-direction: column;
-      justify-content: space-between;
-      height: 800px;
-    }
-  }
+  padding: 30px;
+}
+
+app-display-artist {
+  padding: 10px;
 }
