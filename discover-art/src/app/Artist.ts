@@ -1,5 +1,5 @@
 export interface Artist {
-    id?: number;
+    id: number;
     name: string;
     age: number;
     hometown: string;

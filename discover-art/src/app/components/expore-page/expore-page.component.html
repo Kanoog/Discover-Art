@@ -1,2 +1,9 @@
-<p>Explore page content goes here</p>
+<h1>EXPLORE</h1>
 
+<div class="explore-container">
+  <div class="photo-grid">
+    <div *ngFor="let artist of artists" (click)="navigateToArtist(artist.id)">
+      <img [src]="artist.image" alt="Artist Image" />
+    </div>
+  </div>
+</div>
