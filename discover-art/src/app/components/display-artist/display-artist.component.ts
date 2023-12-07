@@ -15,8 +15,4 @@ export class DisplayArtistComponent {
     
    }
 
-   exportArtists() {
-      this.router.navigate(['/about-artist', this.artist.id]);
-   }
-
 }

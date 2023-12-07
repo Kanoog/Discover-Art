@@ -4,5 +4,5 @@
     <h2>{{ artist.name }}</h2>
     <p>Born {{ artist.dateOfBirth }}</p>
     <p>{{ artist.hometown }}</p>
-    <button class="explore-button" (click)="exportArtists()">Explore</button>
+    <a [routerLink]="['/artist', artist.id]"><button class="explore-button" >Explore</button></a>
 </div>

@@ -1,0 +1,59 @@
+<form class="add-form" (ngSubmit)="onSubmit()">
+
+    <div class="form-control">
+        <label for="artistName">Artist Name</label>
+        <input type="text" name="artistName" [(ngModel)]="artistName" id="artistName" placeholder="Add Text">
+    </div>
+
+    <div class="form-control">
+        <label for="age">Artist Age</label>
+        <input type="age" name="age" [(ngModel)]="age" id="age" placeholder="Add Text">
+    </div>
+
+    <div class="form-control">
+        <label for="hometown">Artist hometown</label>
+        <input type="text" name="hometown" [(ngModel)]="hometown" id="hometown" placeholder="Add Text">
+    </div>
+
+    <div class="form-control">
+        <label for="dateOfBirth">Artist dateOfBirth</label>
+        <input type="text" name="dateOfBirth" [(ngModel)]="dateOfBirth" id="dateOfBirth" placeholder="Add Text">
+    </div>
+
+    <div class="form-control">
+        <label for="bio">Artist bio</label>
+        <input type="text" name="bio" [(ngModel)]="bio" id="bio" placeholder="Add Text">
+    </div>
+
+    <div class="form-control">
+        <label for="image">Artist image</label>
+        <input type="text" name="image" [(ngModel)]="image" id="image" placeholder="Add Text">
+    </div>
+
+    <input type="submit" value="Add Artist" class="btn btn-block">
+
+</form>
+
+<div (dblclick)="onToggle()">
+    <h1>Artists</h1>
+    <p>Click on an artist to explore their work.</p>
+    <p>Or click the red X to remove an artist.</p>
+</div>
+
+
+<div class="container">
+    <div class="photo-grid">
+        <div *ngFor="let artist of artists" class="artist-info">
+            <h2>ID: {{ artist.id }}</h2>
+            <img [src]="artist.image" alt="artist image" />
+            <h2>{{ artist.name }}</h2>
+            <p>Born {{ artist.dateOfBirth }}</p>
+            <p>{{ artist.hometown }}</p>
+            <a [routerLink]="['/artist', artist.id]"><button class="explore-button" >Explore</button></a>
+            <p>REMOVE ARTIST: </p>
+            <fa-icon [icon]="faTimes" 
+                [ngStyle]="{'color': 'red'}"
+                (click)="deleteTask(artist)" ></fa-icon>
+        </div>
+    </div>
+</div>

@@ -13,13 +13,18 @@ import { ArtistPageComponent } from './components/artist-page/artist-page.compon
 import { AboutUsPageComponent } from './components/about-us-page/about-us-page.component';
 import { SearchPageComponent } from './components/search-page/search-page.component';
 import { DisplayArtistComponent } from './components/display-artist/display-artist.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { EditArtistsComponent } from './components/edit-artists/edit-artists.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'explore', component: ExporePageComponent },
-  { path: 'artist', component: ArtistPageComponent },
+  { path: 'artist/:id', component: ArtistPageComponent },
   { path: 'about', component: AboutUsPageComponent },
-  { path: 'search', component: SearchPageComponent }
+  { path: 'search', component: SearchPageComponent },
+  { path: 'edit', component: EditArtistsComponent },
+  { path: '**', component: PageNotFoundComponent }
 ]
 
 @NgModule({
@@ -32,13 +37,15 @@ const appRoutes: Routes = [
     ArtistPageComponent,
     AboutUsPageComponent,
     SearchPageComponent,
-    DisplayArtistComponent
+    DisplayArtistComponent,
+    EditArtistsComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    RouterModule.forRoot(appRoutes, { enableTracing: true })
+    RouterModule.forRoot(appRoutes, { enableTracing: true }),
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

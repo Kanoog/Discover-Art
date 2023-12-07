@@ -98,6 +98,15 @@
       "dateOfBirth": "1990-05-23",
       "bio": "Minneapolis",
       "image": "assets/andy-warhol-marilyn-diptych-1962.webp"
+    },
+    {
+      "name": "Ashley",
+      "age": "28",
+      "hometown": "Minneapolis",
+      "dateOfBirth": "03/16/1995",
+      "bio": "loves running",
+      "image": "assets/Campbells-Soup-Cans-1962-Andy-Warhol.jpg",
+      "id": 12
     }
   ]
 }
