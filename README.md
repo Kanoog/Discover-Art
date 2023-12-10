@@ -27,8 +27,8 @@ then run the angular app as normal after that:
 
 and go to the local api endpoint to see our artists, subscribers, and contacters
 
-http://localhost:5000/artists
-http://localhost:5000/subscribers
+http://localhost:5000/artists <br />
+http://localhost:5000/subscribers <br />
 http://localhost:5000/contacter
 
 and the homepage to see app obviously:
