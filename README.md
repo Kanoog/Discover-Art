@@ -25,9 +25,11 @@ then run the angular app as normal after that:
 
 `ng serve`
 
-and go to the local api endpoint to see our artists
+and go to the local api endpoint to see our artists, subscribers, and contacters
 
 http://localhost:5000/artists
+http://localhost:5000/subscribers
+http://localhost:5000/contacter
 
 and the homepage to see app obviously:
 
