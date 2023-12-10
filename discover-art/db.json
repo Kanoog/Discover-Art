@@ -108,5 +108,53 @@
       "image": "assets/Campbells-Soup-Cans-1962-Andy-Warhol.jpg",
       "id": 12
     }
+  ],
+  "subscribers": [
+    {
+      "name": "Kanoog",
+      "email": "moua5223@stthomas.edu",
+      "id": 1
+    },
+    {
+      "name": "rina mina",
+      "email": "rinamina@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "nicki minaj",
+      "email": "pinkfriday@stthomas.edu",
+      "id": 3
+    },
+    {
+      "name": "yunjin",
+      "email": "yunjin@lesserafim.com",
+      "id": 4
+    }
+  ],
+  "contacter": [
+    {
+      "id": 1,
+      "name": "Kanoog",
+      "email": "moua5223@stthomas.edu",
+      "message": "I would like more artists displayed!"
+    },
+    {
+      "name": "kanoog moua",
+      "email": "mina@gmail.com",
+      "message": "Here is my first message coming through.",
+      "id": 2
+    },
+    {
+      "name": "yunjin",
+      "email": "lessarafim@best.com",
+      "message": "Testing sending a message",
+      "id": 3
+    },
+    {
+      "name": "taylor swift",
+      "email": "eras@tour.com",
+      "message": "Hey this is taylor swift. Cool website!",
+      "id": 4
+    }
   ]
 }

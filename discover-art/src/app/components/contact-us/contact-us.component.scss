@@ -1,0 +1,40 @@
+.form-style {
+    margin: 20px 0;
+}
+
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid steelblue;
+    min-height: 25px;
+    max-width: 800px;
+}
+
+.message-box input{
+    border-radius: 5px;
+    border: 1px solid steelblue;
+    min-height: 300px;
+    padding-right: 530px;
+    overflow: auto;
+}
+
+.btn {
+    display: inline-block;
+    background: lightpink;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}

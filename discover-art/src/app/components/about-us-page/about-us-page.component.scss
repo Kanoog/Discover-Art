@@ -1,0 +1,35 @@
+.about-us, h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.about-us section{
+    max-width: 800px;
+    margin: 30px auto;
+    overflow: auto;
+    padding: 50px;
+    font-size: large;
+    
+}
+
+.submissions {
+    max-width: 700px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 1px solid steelblue;
+    padding: 30px;
+    border-radius: 50px;
+    background-color: gold;
+}
+
+.contact-box {
+    max-width: 700px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 400px;
+    border: 1px solid steelblue;
+    padding: 30px;
+    border-radius: 50px;
+    background-color: lightblue;
+}

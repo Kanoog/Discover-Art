@@ -16,6 +16,8 @@ import { DisplayArtistComponent } from './components/display-artist/display-arti
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { EditArtistsComponent } from './components/edit-artists/edit-artists.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NewsletterComponent } from './components/newsletter/newsletter.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -38,7 +40,9 @@ const appRoutes: Routes = [
     AboutUsPageComponent,
     SearchPageComponent,
     DisplayArtistComponent,
-    EditArtistsComponent
+    EditArtistsComponent,
+    NewsletterComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,

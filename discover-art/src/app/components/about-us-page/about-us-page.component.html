@@ -1,3 +1,16 @@
-
-<p>About us page content goes here</p>
+<div class="about-us">
+    <h1> About Us</h1>
+    <section>Art is a beautiful form of expression and discovery! And we understand that by bringing together innovative
+        artists to you in one location! With Discover Art, you are able to find artists you like and find new ones who
+        you might not have heard of yet. So go ahead and Discover Art!
+    </section>
+</div>
+<h1>Newsletter Sign Up</h1>
+<div class="submissions">
+    <app-newsletter (onAddSubscriber)="addSubscriber($event)"></app-newsletter>
+</div>
+<h1>Contact Us</h1>
+<div class="contact-box">
+    <app-contact-us (onContactUs)="addContact($event)"></app-contact-us>
+</div>
 

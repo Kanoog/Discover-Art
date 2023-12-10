@@ -1,0 +1,12 @@
+<form (ngSubmit)="infoSubscribe()">
+    <div class="form-style">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" [(ngModel)]="name" placeholder="Name" />
+    </div>
+    <div class="form-style">
+        <label for="email">Email Address:</label><br>
+        <input type="text" id="email" name="email" [(ngModel)]="email" placeholder="Email Address" />
+    </div>
+    <input class="btn" type="submit" value="Subscribe"/>
+</form>
+
