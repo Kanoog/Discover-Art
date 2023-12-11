@@ -71,9 +71,4 @@ export class EditArtistsComponent {
     this.artistInfoService.deleteArtist(artist).subscribe(() => this.artists = this.artists.filter(t => t.id !== artist.id));
   }
 
-  onToggle() {
-    console.log('toggle');
-    
-  }
-
 }
