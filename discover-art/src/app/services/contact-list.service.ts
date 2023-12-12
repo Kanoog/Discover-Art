@@ -13,11 +13,11 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class ContactListService {
-  private apiUrlSub = 'http://localhost:5000/contacter';
+  private apiUrlContact = 'http://localhost:5000/contacter';
 
   constructor(private http:HttpClient) { }
 
   addSubscriber(customer: Contacter): Observable<Contacter>{
-    return this.http.post<Contacter>(this.apiUrlSub, customer, httpOptions);
+    return this.http.post<Contacter>(this.apiUrlContact, customer, httpOptions);
   }
 }

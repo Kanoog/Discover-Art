@@ -9,7 +9,7 @@
     </div>
     <div class="message-box">
         <label for="message">Message:</label><br>
-        <input type="text" id="message" name="message" [(ngModel)]="message" />
+        <textarea id="message" name="message" row="10" cols="50" [(ngModel)]="message" placeholder="Enter Message Here"></textarea>
     </div>
     <input class="btn" type="submit" value="Send"/>
 </form>
