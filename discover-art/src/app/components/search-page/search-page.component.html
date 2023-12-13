@@ -1,2 +1,26 @@
-
-<p>Search page content goes here</p>
+<div class="page-body">
+    <div class="search-section" (ngSubmit)="onSearch()">
+        <input type="text" id="search" name="search" class="search-box" [(ngModel)]="search" placeholder="Search" />
+        <input class="btn" type="submit" id="submit" name="submit" value="Search" />
+    </div>
+    <div class="artists-box">
+        <div id="last">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Art Piece</th>
+                        <th>Artist</th>
+                        <th>Biography</th>
+                        <th>Date of Birth</th>
+                    </tr>
+                    <tr *ngFor="let artist of artists">
+                        <td [routerLink]="['/artist', artist.id]"><img [src]="artist.image" alt="Artist Image" width="70px"/></td>
+                        <td>{{artist.name}}</td>
+                        <td>{{artist.bio}}</td>
+                        <td>{{artist.dateOfBirth}}</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</div>

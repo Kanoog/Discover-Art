@@ -8,11 +8,15 @@
 }
 
 .picture {
-    display:inline-block;
-    text-align: center;
-    padding-left: 800px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    // display:inline-block;
+    // text-align: center;
+    // padding-left: 800px;
+    // padding-top: 100px;
+    // padding-bottom: 100px;
+
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
 
 
