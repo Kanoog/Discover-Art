@@ -1,8 +1,10 @@
 <div class="page-body">
-    <div class="search-section" (ngSubmit)="onSearch()">
-        <input type="text" id="search" name="search" class="search-box" [(ngModel)]="search" placeholder="Search" />
-        <input class="btn" type="submit" id="submit" name="submit" value="Search" />
-    </div>
+    <form (ngSubmit)="onSearch()">
+        <div class="search-section">
+            <input type="text" id="search" name="search" class="search-box" [(ngModel)]="search" placeholder="Search" />
+            <input class="btn" type="submit" id="submit" name="submit" value="Search" />
+        </div>
+    </form>
     <div class="artists-box">
         <div id="last">
             <table>

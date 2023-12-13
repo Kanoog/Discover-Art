@@ -23,6 +23,7 @@ export class SearchPageComponent {
 
   onSearch(){
     if(!this.search){
+      // console.log('something is happening??');
       alert('The required fields have not all been filled for submitting a search for an artist!');
       return;
     }
