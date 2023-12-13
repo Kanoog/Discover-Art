@@ -6,4 +6,6 @@ export interface Artist {
     dateOfBirth: string;
     bio: string;
     image: string;
+    image2: string;
+    image3: string;
 }

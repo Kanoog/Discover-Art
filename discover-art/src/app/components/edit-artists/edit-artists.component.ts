@@ -24,6 +24,8 @@ export class EditArtistsComponent {
   dateOfBirth: string = '';
   bio: string = '';
   image: string = '';
+  image2: string = '';
+  image3: string = '';
 
   subscription!: Subscription;
   @Output() onAddTask: EventEmitter<Artist> = new EventEmitter();
@@ -47,6 +49,8 @@ export class EditArtistsComponent {
       dateOfBirth: this.dateOfBirth,
       bio: this.bio,
       image: this.image,
+      image2: this.image2,
+      image3: this.image3,
       id: this.temp
     }
 
@@ -59,6 +63,8 @@ export class EditArtistsComponent {
     this.dateOfBirth = '';
     this.bio = '';
     this.image = '';
+    this.image2 = '';
+    this.image3 = '';
     this.id = 0;
   }
 
@@ -69,6 +75,11 @@ export class EditArtistsComponent {
 
   deleteTask(artist: Artist) {
     this.artistInfoService.deleteArtist(artist).subscribe(() => this.artists = this.artists.filter(t => t.id !== artist.id));
+  }
+
+  onToggle() {
+    console.log('toggle');
+    
   }
 
 }

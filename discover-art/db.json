@@ -6,8 +6,10 @@
       "age": 52,
       "hometown": "Pittsburgh, Pennsylvania",
       "dateOfBirth": "1928-08-06",
-      "bio": "Andy Warhol, born in Pittsburgh, Pennsylvania, on August 6, 1928, was a modern and contemporary artist who passed away at age 58 in New York City on February 22, 1987. Warhol is arguably the most crucial figure of the Pop Art art movement, working in film, photography, printmaking, and painting. As a result, Andy Warhol is the creator of some of the most iconic artworks of the 20th century and is a highly influential artist today. Think of his beyond-famous Marilyn Monroe portraits (see image above), but also his Campbell’s soup cans, his experimental films, and much more. Warhol combined consumer culture with art, dissolving the boundaries of high art and popular culture.",
-      "image": "assets/warhol.png"
+      "bio": "Andy Warhol, born in Pittsburgh, Pennsylvania, on August 6, 1928, was a modern and contemporary artist who passed away at age 58 in New York City on February 22, 1987. Warhol is arguably the most crucial figure of the Pop Art art movement, working in film, photography, printmaking, and painting. As a result, Andy Warhol is the creator of some of the most iconic artworks of the 20th century and is a highly influential artist today. Think of his beyond-famous Marilyn Monroe portraits (see image above), but also his Campbells soup cans, his experimental films, and much more. Warhol combined consumer culture with art, dissolving the boundaries of high art and popular culture.",
+      "image": "assets/warhol.png",
+      "image2": "assets/andy-warhol-marilyn-diptych-1962.webp",
+      "image3": "assets/cool-abstract-art-aditi-taregharkar.jpg"
     },
     {
       "id": 2,
@@ -15,8 +17,10 @@
       "age": 36,
       "hometown": "Berlin, Germany",
       "dateOfBirth": "1995-01-05",
-      "bio": "Julia Shanaytsa art practice is diverse, encompassing both illustration and painting. Julia enjoys experimenting with color, shape, geometry, and genre, often blending painterly and illustrative techniques in her work. As she puts it, nine different artists live within her. Julia Shanaytsa approaches her paintings with intuition and emotion at the forefront. She believes that women often rely on their gut feelings rather than logic, and this is reflected in the choices she makes in terms of color and brushstrokes in her work. Intuition is closely tied to sensory memory and helps us draw on relevant experiences from the past in the present moment. In her series Yellow Mood, Julia depicts women in their environments while also introducing elements of fantasy and playfulness through her use of form and color. This series is inspired by classical works such as Rembrandt's The Anatomy Lesson of Dr. Nicolaes Tulp, reimagining these scenes in a modern context. The paintings in this series are characterized by their theatricality, sense of play, and the way they capture the spirit of the times.",
-      "image": "assets/shanaytsa-aperol.webp"
+      "bio": "Julia Shanaytsa's art practice is diverse, encompassing both illustration and painting. Julia enjoys experimenting with color, shape, geometry, and genre, often blending painterly and illustrative techniques in her work. As she puts it, nine different artists live within her. Julia Shanaytsa approaches her paintings with intuition and emotion at the forefront. She believes that women often rely on their gut feelings rather than logic, and this is reflected in the choices she makes in terms of color and brushstrokes in her work. Intuition is closely tied to sensory memory and helps us draw on relevant experiences from the past in the present moment. In her series Yellow Mood, Julia depicts women in their environments while also introducing elements of fantasy and playfulness through her use of form and color. This series is inspired by classical works such as Rembrandt's The Anatomy Lesson of Dr. Nicolaes Tulp, reimagining these scenes in a modern context. The paintings in this series are characterized by their theatricality, sense of play, and the way they capture the spirit of the times.",
+      "image": "assets/shanaytsa-aperol.webp",
+      "image2": "assets/JShanaytsa_2.png",
+      "image3": "assets/JShanaytsa_3.jpg"
     },
     {
       "id": 3,
@@ -24,91 +28,178 @@
       "age": 45,
       "hometown": "Paris, France",
       "dateOfBirth": "1992-03-16",
-      "bio": "Clédia Fourniau was born in 1992, in Paris, where she now lives and works. After a three-year program at the school Olivier de Serres, she graduates from the Beaux-Arts de Paris in october 2021, with honors. Clédia Fourniau tackles the processual and performative dimensions of abstract painting and questions the context in which one perceives and receives an image, involving the entire body of the artist and of the visitor.",
-      "image": "assets/cledia.jpg"
+      "bio": "Clédia Fourniau was born in 1992, in Paris, where she now lives and works. After a three-year program at the school Olivier de Serres, she graduates from the Beaux-Arts de Paris in October 2021, with honors. Clédia Fourniau tackles the processual and performative dimensions of abstract painting and questions the context in which one perceives and receives an image, involving the entire body of the artist and of the visitor.",
+      "image": "assets/cledia.jpg",
+      "image2": "assets/CF_2.jpg",
+      "image3": "assets/CF_3.jpg"
     },
     {
       "id": 4,
-      "name": "Lizzo",
-      "age": 45,
-      "hometown": "Minneapolis",
-      "dateOfBirth": "1990-05-23",
-      "bio": "Minneapolis",
-      "image": "assets/Campbells-Soup-Cans-1962-Andy-Warhol.jpg"
+      "name": "KAWS (Brian Donnelly)",
+      "age": 48,
+      "hometown": "Jersey City, New Jersey, USA",
+      "dateOfBirth": "1974-11-04",
+      "bio": "KAWS, born Brian Donnelly, is an American artist and designer known for his distinctive characters and pop culture-inspired creations. Starting as a street artist, KAWS has transitioned into the mainstream art world, creating sculptures, paintings, and collaborative projects. His work often blurs the lines between fine art and popular culture, resonating with audiences worldwide.",
+      "image": "assets/BD_1.jpg",
+      "image2": "assets/BD_2.jpg",
+      "image3": "assets/BD_3.jpg"
     },
     {
       "id": 5,
-      "name": "Ariana Grande",
-      "age": 45,
-      "hometown": "Minneapolis",
-      "dateOfBirth": "1990-05-23",
-      "bio": "Minneapolis",
-      "image": "assets/andy-warhol-marilyn-diptych-1962.webp"
+      "name": "Jean-Michel Basquiat",
+      "age": null,
+      "hometown": "Brooklyn, New York, USA",
+      "dateOfBirth": "1960-12-22",
+      "bio": "Jean-Michel Basquiat was an American artist whose graffiti-influenced works garnered acclaim in the 1980s art scene. Basquiat's paintings often blend social commentary, African-American history, and elements of street culture. Despite his tragically short career, Basquiat's impact on the art world remains profound.",
+      "image": "assets/JMB_1.png",
+      "image2": "assets/JMB_2.webp",
+      "image3": "assets/JMB_3.jpg"
     },
     {
       "id": 6,
-      "name": "Andy Warhol",
-      "age": 52,
-      "hometown": "Pittsburgh, Pennsylvania",
-      "dateOfBirth": "1928-08-06",
-      "bio": "Andy Warhol, born in Pittsburgh, Pennsylvania, on August 6, 1928, was a modern and contemporary artist who passed away at age 58 in New York City on February 22, 1987. Warhol is arguably the most crucial figure of the Pop Art art movement, working in film, photography, printmaking, and painting. As a result, Andy Warhol is the creator of some of the most iconic artworks of the 20th century and is a highly influential artist today. Think of his beyond-famous Marilyn Monroe portraits (see image above), but also his Campbell’s soup cans, his experimental films, and much more. Warhol combined consumer culture with art, dissolving the boundaries of high art and popular culture.",
-      "image": "assets/cool-abstract-art-aditi-taregharkar.jpg"
+      "name": "Kara Walker",
+      "age": 54,
+      "hometown": "Stockton, California",
+      "dateOfBirth": "1969-11-26",
+      "bio": "Kara Walker is among the most complex and prolific American artists of her generation. She has gained national and international recognition for her cut-paper silhouettes depicting historical narratives haunted by sexuality, violence, and subjugation. Walker has also used drawing, painting, text, shadow puppetry, film, and sculpture to expose the ongoing psychological injury caused by the tragic legacy of slavery. Her work leads viewers to a critical understanding of the past while also proposing an examination of contemporary racial and gender stereotypes. A native of Stockton, California, Walker earned a B.F.A. at the Atlanta College of Art and an M.F.A at the Rhode Island School of Design. She made her New York debut in a 1994 group exhibition at the Drawing Center with the 25-foot-long wall installation Gone: An Historical Romance of a Civil War as It Occurred between the Dusky Thighs of One Young Negress and Her Heart (1994). Its caricatured antebellum figures, which are engaged in violent and sexual interactions, were silhouettes cut from black paper and installed directly on the wall. The silhouette technique has its roots in the sentimental Victorian “ladies art” of shadow portraits, but the scale of Walkers work also alluded to the 360-degree historical cycloramas popular during the post-Civil War era for the depiction of battle scenes. Walker has continued to use both the silhouette and cyclorama forms to explore the nature of race representation as well as the history of figuration and narrative in contemporary art.",
+      "image": "assets/kara_walker_1.png",
+      "image2": "assets/kara_walker_2.avif",
+      "image3": "assets/kara_walker_3.jpg"
     },
     {
       "id": 7,
-      "name": "Andy Warhol",
-      "age": 52,
-      "hometown": "Pittsburgh, Pennsylvania",
-      "dateOfBirth": "1928-08-06",
-      "bio": "Andy Warhol, born in Pittsburgh, Pennsylvania, on August 6, 1928, was a modern and contemporary artist who passed away at age 58 in New York City on February 22, 1987. Warhol is arguably the most crucial figure of the Pop Art art movement, working in film, photography, printmaking, and painting. As a result, Andy Warhol is the creator of some of the most iconic artworks of the 20th century and is a highly influential artist today. Think of his beyond-famous Marilyn Monroe portraits (see image above), but also his Campbell’s soup cans, his experimental films, and much more. Warhol combined consumer culture with art, dissolving the boundaries of high art and popular culture.",
-      "image": "assets/warhol.png"
+      "name": "Jeff Koons",
+      "age": 68,
+      "hometown": "York, Pennsylvania",
+      "dateOfBirth": "1955-01-21",
+      "bio": "Jeff Koons is an American artist known for his contemporary art and sculptures. Jeff Koons was born on January 21, 1955, in York, Pennsylvania. He is widely recognized for his large-scale reproductions of banal objects and his works often blur the lines between popular culture and high art. Some of his most famous pieces include 'Balloon Dog,' a series of stainless steel sculptures that resemble twisted balloon animals, and 'Rabbit,' a reflective stainless steel sculpture. Koons has been a controversial figure in the art world, with some praising his innovative approach, while others criticize his work as kitsch.",
+      "image": "assets/jeff_koons_rabbit.png",
+      "image2": "assets/jeff_koons_puppy.webp",
+      "image3": "assets/jeff_koons_balloon_dog.webp"
     },
     {
       "id": 8,
-      "name": "Julia Shanaytsa",
-      "age": 36,
-      "hometown": "Berlin, Germany",
-      "dateOfBirth": "1995-01-05",
-      "bio": "Julia Shanaytsa art practice is diverse, encompassing both illustration and painting. Julia enjoys experimenting with color, shape, geometry, and genre, often blending painterly and illustrative techniques in her work. As she puts it, nine different artists live within her. Julia Shanaytsa approaches her paintings with intuition and emotion at the forefront. She believes that women often rely on their gut feelings rather than logic, and this is reflected in the choices she makes in terms of color and brushstrokes in her work. Intuition is closely tied to sensory memory and helps us draw on relevant experiences from the past in the present moment. In her series Yellow Mood, Julia depicts women in their environments while also introducing elements of fantasy and playfulness through her use of form and color. This series is inspired by classical works such as Rembrandt's The Anatomy Lesson of Dr. Nicolaes Tulp, reimagining these scenes in a modern context. The paintings in this series are characterized by their theatricality, sense of play, and the way they capture the spirit of the times.",
-      "image": "assets/shanaytsa-aperol.webp"
+      "name": "Cy Thao",
+      "age": 51,
+      "hometown": "Saint Paul, Minnesota",
+      "dateOfBirth": "1972-03-02",
+      "bio": "Cy Thao is an artist, teacher, and political leader who recently served as a member of the DFL Minnesota House of Representatives for District 65A. He was born in Laos in 1972, but traveled to Thailand with his family in 1975 after the United States left Vietnam. His family stayed in a Thai refugee camp until 1980 when they immigrated to St. Paul, Minnesota. Taken together, the fifty canvases in The Hmong Migration comprise an epic narrative that recounts over 5,000 years of Hmong history -- from life in southern China and the mountains of Laos, to alignment with the U.S. during the Vietnam War and life in the refugee camps in Thailand, to resettlement in the United States. Thao's intent in this series was to expose the difficulties, menaces, and effects of any migration process. Although Thao has trained as a professional artist, this piece was created in a consciously 'outsider' narrative style, mirroring the 'story-cloth' tapestries he saw being made by his compatriots in the Thai refugee camps during his childhood, which he said were like picture books without words. For his visual narrative, Thao added a written commentary about each image, adding to their power. 'I want the series to educate the younger generation, to have some closure with the generation that went through the war,” he said, “and hopefully become a historical document for generations to come.'",
+      "image": "assets/Cy_thao_Painting_1.jpg",
+      "image2": "assets/Cy_thao_Painting_2.jpg",
+      "image3": "assets/Cy_thao_Painting_3.jpg"
     },
     {
       "id": 9,
-      "name": "Clédia Fourniau",
-      "age": 45,
-      "hometown": "Paris, France",
-      "dateOfBirth": "1992-03-16",
-      "bio": "Clédia Fourniau was born in 1992, in Paris, where she now lives and works. After a three-year program at the school Olivier de Serres, she graduates from the Beaux-Arts de Paris in october 2021, with honors. Clédia Fourniau tackles the processual and performative dimensions of abstract painting and questions the context in which one perceives and receives an image, involving the entire body of the artist and of the visitor.",
-      "image": "assets/cledia.jpg"
-    },
-    {
-      "id": 10,
-      "name": "Lizzo",
-      "age": 45,
-      "hometown": "Minneapolis",
-      "dateOfBirth": "1990-05-23",
-      "bio": "Minneapolis",
-      "image": "assets/Campbells-Soup-Cans-1962-Andy-Warhol.jpg"
+      "name": "Ai Wei Wei",
+      "age": 66,
+      "hometown": "Beijing, China",
+      "dateOfBirth": "1957-08-28",
+      "bio": "Ai Weiwei is a Chinese contemporary artist, activist, and dissident. Born on August 28, 1957, in Beijing, China, he is known for his diverse body of work that includes sculpture, installations, photography, and architecture. Ai Weiwei's art often engages with political and social issues, and he is considered one of the most prominent and outspoken contemporary artists in the world. Ai Weiwei gained international recognition for his collaboration on the design of the Beijing National Stadium, also known as the 'Bird's Nest,' for the 2008 Summer Olympics. However, he later distanced himself from the project, citing his dissatisfaction with the Chinese government's handling of the event. His activism and criticism of the Chinese government have led to various conflicts, including his arrest in 2011 and a subsequent 81-day detention. Despite facing government scrutiny, Ai Weiwei continues to use his art and voice to address issues related to human rights, freedom of expression, and social justice.",
+      "image": "assets/ai_weiwei_1.jpg",
+      "image2": "assets/ai_weiwei_2.jpg",
+      "image3": "assets/ai_weiwei_3.webp"
     },
     {
       "id": 11,
-      "name": "Ariana Grande",
-      "age": 45,
-      "hometown": "Minneapolis",
-      "dateOfBirth": "1990-05-23",
-      "bio": "Minneapolis",
-      "image": "assets/andy-warhol-marilyn-diptych-1962.webp"
+      "name": "Yayoi Kusama",
+      "age": 93,
+      "hometown": "Matsumoto, Nagano, Japan",
+      "dateOfBirth": "1929-03-22",
+      "bio": "Yayoi Kusama is a Japanese contemporary artist known for her works in sculpture, painting, and performance art. Her art transcends cultural and geographic boundaries, with a distinctive style characterized by the use of polka dots and patterns. Kusama's contributions to the art world have made her a celebrated figure globally.",
+      "image": "assets/YK_1.jpg",
+      "image2": "assets/YK_2.jpg",
+      "image3": "assets/YK_3.webp"
     },
     {
-      "name": "vincent",
-      "age": "28",
-      "hometown": "Minneapolis",
-      "dateOfBirth": "03/16/1995",
-      "bio": "a;lsdkfj a;sdlkfja;sldkfjasd;lfkjas;dlkfjas;ldkfj",
-      "image": "assets/Campbells-Soup-Cans-1962-Andy-Warhol.jpg",
-      "id": 13
+      "id": 12,
+      "name": "Damien Hirst",
+      "age": 57,
+      "hometown": "Bristol, United Kingdom",
+      "dateOfBirth": "1965-06-07",
+      "bio": "Yayoi Kusama is a Japanese contemporary artist known for her works in sculpture, painting, and performance art. Her art transcends cultural and geographic boundaries, with a distinctive style characterized by the use of polka dots and patterns. Kusama's contributions to the art world have made her a celebrated figure globally.",
+      "image": "assets/DH_1.webp",
+      "image2": "assets/DH_2.webp",
+      "image3": "assets/DH_3.png"
+    },
+    {
+      "id": 13,
+      "name": "Yoko Ono",
+      "age": 89,
+      "hometown": "Tokyo, Japan",
+      "dateOfBirth": "1933-02-18",
+      "bio": "Yoko Ono is a Japanese multimedia artist, singer, and peace activist. Recognized for her avant-garde art and experimental music, Ono has been a prominent figure in the global art scene since the 1960s. Her work often challenges traditional artistic boundaries, inviting audience participation and reflection on issues such as peace and human rights.",
+      "image": "assets/YO_1.jpg",
+      "image2": "assets/YO_2.webp",
+      "image3": "assets/YO_3.jpg"
+    },
+    {
+      "id": 14,
+      "name": "JR (Jean René)",
+      "age": 39,
+      "hometown": "Paris, France",
+      "dateOfBirth": "1983-02-22",
+      "bio": "JR, born Jean René, is a French artist and photographer known for his large-scale public art installations and projects that address social and political issues. His art often involves photographing local communities and pasting their portraits in public spaces, creating a powerful visual impact. JR's work emphasizes the importance of human connection and storytelling.",
+      "image": "assets/JR_1.jpg",
+      "image2": "assets/JR_2.jpg",
+      "image3": "assets/JR_3.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Kehinde Wiley",
+      "age": 45,
+      "hometown": "Los Angeles, California, USA",
+      "dateOfBirth": "1977-02-28",
+      "bio": "Kehinde Wiley is an American portrait painter recognized for his vibrant and contemporary reinterpretations of classical European portraiture. Wiley often features young African American men and women in poses inspired by historical paintings, challenging traditional representations of power and status. His work explores themes of identity, race, and the intersection of art and culture.",
+      "image": "assets/KW_1.jpg",
+      "image2": "assets/KW_2.jpg",
+      "image3": "assets/KW_3.webp"
+    },
+    {
+      "id": 16,
+      "name": "Cai Guo-Qiang",
+      "age": 65,
+      "hometown": "Quanzhou, Fujian, China",
+      "dateOfBirth": "1957-12-08",
+      "bio": "Cai Guo-Qiang is a Chinese contemporary artist known for his large-scale explosive art and installations. Recognized for his use of gunpowder as a medium, Cai creates breathtaking and ephemeral works that explore themes of culture, nature, and the intersection of tradition and modernity. His art often involves a dynamic interplay between chaos and order.",
+      "image":"assets/CGQ_1.jpg",
+      "image2": "assets/CGQ_2.webp",
+      "image3": "assets/CGQ_3.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Vincent van Gogh",
+      "age": "",
+      "hometown": "Zundert, Netherlands",
+      "dateOfBirth": "1853-03-30",
+      "bio": "Vincent van Gogh was a Dutch Post-Impressionist painter who is among the most famous and influential figures in the history of Western art. Despite struggling with mental health issues, Van Gogh produced a vast body of work, including some of the most celebrated and recognizable paintings in the world, such as 'Starry Night' and 'Sunflowers.' His unique and expressive style had a profound impact on the development of modern art.",
+      "image":"assets/VVG_1.webp",
+      "image2": "assets/VVG_2.webp",
+      "image3": "assets/VVG_3.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Leonardo da Vinci",
+      "age": "",
+      "hometown": "Vinci, Italy",
+      "dateOfBirth": "1452-04-15",
+      "bio": "Leonardo da Vinci, often considered the archetype of the Renaissance Man, was an Italian polymath of the High Renaissance. Beyond his mastery in painting, including works like the 'Mona Lisa' and 'The Last Supper,' Leonardo was an inventor, scientist, mathematician, and writer. His contributions to art and science have left an enduring legacy.",
+      "image":"assets/LV_1.webp",
+      "image2": "assets/LV_2.webp",
+      "image3": "assets/LV_3.jpeg"
+    },
+    {
+      "id": 21,
+      "name": "Pablo Picasso",
+      "age": "",
+      "hometown": "Málaga, Spain",
+      "dateOfBirth": "1881-10-25",
+      "bio": "Pablo Picasso, a Spanish painter and sculptor, co-founded the Cubist movement and is considered one of the most influential artists of the 20th century. Picasso's diverse body of work, including iconic pieces like 'Guernica' and 'Les Demoiselles d'Avignon,' reflects his innovative approach to form and content.",
+      "image":"assets/PP_1.jpg",
+      "image2": "assets/PP_2.webp",
+      "image3": "assets/PP_3.jpg"
     }
   ],
+  
   "subscribers": [
     {
       "name": "Kanoog",
@@ -122,12 +213,7 @@
       "name": "Kanoog",
       "email": "moua5223@stthomas.edu",
       "message": "I would like more artists displayed!"
-    },
-    {
-      "name": "kanoog moua",
-      "email": "mina@gmail.com",
-      "message": "Here is my first message coming through.",
-      "id": 2
     }
+    
   ]
 }

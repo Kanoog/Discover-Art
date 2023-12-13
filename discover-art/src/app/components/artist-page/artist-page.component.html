@@ -1,11 +1,18 @@
 
-<h1>ARTIST PAGE</h1>
+<h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">ARTIST PAGE</h1>
 
-<h2>Artist ID: {{ artistId }}</h2>
+<!-- <h2 class="">Artist ID: {{ artistId }}</h2> -->
 
-<div *ngIf="artist$ | async as artist">
+<div class="main" *ngIf="artist$ | async as artist">
     <h2>{{ artist.name }}</h2>
+    <h3>Date of Birth: {{artist.dateOfBirth}}</h3>
+    <h3>Age: {{artist.age}}</h3>
+    <h3>Hometown: {{artist.hometown}}</h3>
     <p>{{ artist.bio }}</p>
-    <h3>Artworks</h3>
-    <img [src]="artist.image" alt="artwork image" />
+</div>
+
+<div class="picture" *ngIf="artist$ | async as artist" >
+    <img [src]="artist.image" alt="artwork image" class="image" />
+    <img [src]="artist.image2" alt="artwork image" class="image"/>
+    <img [src]="artist.image3" alt="artwork image" class="image" />
 </div>
