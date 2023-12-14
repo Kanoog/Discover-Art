@@ -20,13 +20,6 @@ We used `Json-server` to mock API endpoints and generate sample data in JSON for
 
 - Rapid Prototyping: Json-server enables rapid prototyping by providing a quick and simple way to create a functioning API with dummy data. This allowed us to focus on building the front-end functionality without worrying about complex back-end integration.
 
-- Front-end and Back-end Separation: Using json-server, we could decouple the front-end and back-end development processes.
-
-- Easy Setup and Configuration: Json-server is easy to set up and configure. It requires minimal dependencies and can be installed as a package using npm. Json-server also provides a simple JSON-based configuration file where routes and data can be defined.
-
-- Client-Side Development: Json-server is client-side based, meaning it can be run locally without the need for server-side infrastructure. This made it convenient for us to work on our local machines without the need for complex server setups.
-
-- Learning and Testing: Json-server is an excellent tool for learning and testing API interactions.
 
 # What are the lessons learned from doing this project?
 
