@@ -12,6 +12,8 @@ We built an Angular app that serves as a platform for users to explore and engag
 
 # What technologies did you use and why?
 
+We used Angular for the front as just because it was the technology we were learning in this class.
+
 We used `Json-server` to mock API endpoints and generate sample data in JSON format. It is a lightweight and easy-to-use tool that can be beneficial when developing an Angular app for various reasons. Here are some reasons for using json-server with an Angular app:
 
 - Mocking Data: Json-server allows developers to quickly mock API endpoints and generate sample data in JSON format. 
