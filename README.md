@@ -2,11 +2,11 @@
 
 # Walkthrough of your site and its purpose.
 
-We built an Angular app that serves as a platform for users to explore and engage with various forms of artwork. Here are three of some of this app's purposes:
+We built an Angular app that serves as a platform for users to explore and engage with various forms of artwork. Here are three purposes our site, discover-art, servers:
 
 1 - Art Gallery: The app provides a digital gallery or collection of artwork, allowing users to view and appreciate different art pieces conveniently.
 
-2- Artist Profiles: The app can feature profiles of artists, showcasing their portfolios, biographies, and information about their artistic background.
+2- Artist Profiles: Our app features profiles of artists, showcasing their portfolios, biographies, and information about their artistic background.
 
 3 - Search and Filter: The app includes search and filtering functionality, enabling users to find artwork based on various criteria such as artist name or keywords.
 
